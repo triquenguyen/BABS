@@ -1,4 +1,5 @@
 import './globals.css'
+import NextHead from 'next/head'
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,8 +12,14 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
+    <>
+      <NextHead>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+      </NextHead>
+      <html lang="en">
+        <body>{children}</body>
+      </html>
+    </>
+    
   )
 }

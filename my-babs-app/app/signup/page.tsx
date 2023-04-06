@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { useState } from "react"
-import Form from "./LoginForm"
+import Form from "./SignUpForm"
 import Link from "next/link"
 
 export default function Login() {
