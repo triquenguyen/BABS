@@ -8,3 +8,16 @@ export default function Navbar() {
     </div>
   )
 }
+
+// import Link from 'next/link'
+
+// export default function Navbar() {
+//   return (
+//     <nav className="py-5 bg-[#080325]" >
+//       <Link href="/accounts" className="px-3 text-[#519BA1]">Accounts</Link>
+//       <Link href="/transfer" className="px-3 text-white">Transfer</Link>
+//       <Link href="/settings" className="px-3 text-white">Settings</Link>
+//       <Link href="/support" className="px-3 text-white">Support</Link>
+//     </nav>
+//   )
+// }
